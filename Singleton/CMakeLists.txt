@@ -1,4 +1,4 @@
-add_executable(Logger main.cpp Logger.cpp)
+add_executable(Logger main.cpp Logger.cpp FriendFunction.cpp)
 
 find_package(Threads REQUIRED)
 
