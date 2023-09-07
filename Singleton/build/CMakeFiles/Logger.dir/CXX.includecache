@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mgu/Desktop/project/Patterns/Singleton/Logger.cpp
+iostream
+-
+Logger.h
+/home/mgu/Desktop/project/Patterns/Singleton/Logger.h
+
+/home/mgu/Desktop/project/Patterns/Singleton/Logger.h
+
