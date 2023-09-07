@@ -1,5 +1,7 @@
 #pragma once
 
+#include <mutex>
+
 class Logger
 {
 public:
@@ -12,4 +14,5 @@ private:
 
  private:
     static Logger* m_instance;
+    static std::mutex m_mutex;
 };
