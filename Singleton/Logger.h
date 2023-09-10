@@ -1,6 +1,8 @@
 #pragma once
 
 #include <string>
+#include <mutex>
+
 
 class Logger
 {
@@ -20,4 +22,5 @@ private:
  private:
     static Logger* m_instance;
     static bool m_isInstantiated;
+    static std::mutex m_mutex;
 };
