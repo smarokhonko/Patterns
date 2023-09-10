@@ -124,6 +124,21 @@ Logger/fast:
 .PHONY : Logger/fast
 
 # target to build an object file
+FriendFunction.o:
+	$(MAKE) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/FriendFunction.o
+.PHONY : FriendFunction.o
+
+# target to preprocess a source file
+FriendFunction.i:
+	$(MAKE) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/FriendFunction.i
+.PHONY : FriendFunction.i
+
+# target to generate assembly for a file
+FriendFunction.s:
+	$(MAKE) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/FriendFunction.s
+.PHONY : FriendFunction.s
+
+# target to build an object file
 Logger.o:
 	$(MAKE) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/Logger.o
 .PHONY : Logger.o
@@ -162,6 +177,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Logger"
+	@echo "... FriendFunction.o"
+	@echo "... FriendFunction.i"
+	@echo "... FriendFunction.s"
 	@echo "... Logger.o"
 	@echo "... Logger.i"
 	@echo "... Logger.s"

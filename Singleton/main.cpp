@@ -1,6 +1,7 @@
 #include "Logger.h"
 #include <thread>
 
+#include "FriendFunction.h"
 
 void thread_func_1()
 {
@@ -14,11 +15,13 @@ void thread_func_2()
 
 int main()
 {
-    std::thread thread_1(thread_func_1);
-    std::thread thread_2(thread_func_2);
+     std::thread thread_1(thread_func_1);
+     std::thread thread_2(thread_func_2);
 
-    thread_1.join();
-    thread_2.join();
+     thread_1.join();
+     thread_2.join();
 
-    return 0;
+     friendFunction();
+
+     return 0;
 }

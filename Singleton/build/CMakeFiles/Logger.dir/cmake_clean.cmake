@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Logger.dir/FriendFunction.o"
   "CMakeFiles/Logger.dir/Logger.o"
   "CMakeFiles/Logger.dir/main.o"
   "Logger"
