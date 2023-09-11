@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mgu/Desktop/project/Patterns/Strategy/CreditCard.h
+IPaymentStrategy.h
+/home/mgu/Desktop/project/Patterns/Strategy/IPaymentStrategy.h
+
+/home/mgu/Desktop/project/Patterns/Strategy/Crypto.h
+IPaymentStrategy.h
+/home/mgu/Desktop/project/Patterns/Strategy/IPaymentStrategy.h
+
+/home/mgu/Desktop/project/Patterns/Strategy/IPaymentStrategy.h
+
+/home/mgu/Desktop/project/Patterns/Strategy/PayPal.h
+IPaymentStrategy.h
+/home/mgu/Desktop/project/Patterns/Strategy/IPaymentStrategy.h
+
+/home/mgu/Desktop/project/Patterns/Strategy/ShoppingCart.h
+memory
+-
+IPaymentStrategy.h
+/home/mgu/Desktop/project/Patterns/Strategy/IPaymentStrategy.h
+
+/home/mgu/Desktop/project/Patterns/Strategy/main.cpp
+iostream
+-
+memory
+-
+ShoppingCart.h
+/home/mgu/Desktop/project/Patterns/Strategy/ShoppingCart.h
+CreditCard.h
+/home/mgu/Desktop/project/Patterns/Strategy/CreditCard.h
+Crypto.h
+/home/mgu/Desktop/project/Patterns/Strategy/Crypto.h
+PayPal.h
+/home/mgu/Desktop/project/Patterns/Strategy/PayPal.h
+
