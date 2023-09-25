@@ -1,0 +1,60 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/DebugLogger.h
+ILogger.h
+../include/ILogger.h
+
+../include/ErrorLogger.h
+ILogger.h
+../include/ILogger.h
+
+../include/ILogger.h
+string
+-
+
+../include/InfoLogger.h
+ILogger.h
+../include/ILogger.h
+
+../include/SimpleFactoryMethod.h
+Types.h
+../include/Types.h
+ILogger.h
+../include/ILogger.h
+DebugLogger.h
+../include/DebugLogger.h
+ErrorLogger.h
+../include/ErrorLogger.h
+InfoLogger.h
+../include/InfoLogger.h
+
+../types/Types.h
+
+/home/mgu/Desktop/project/Patterns/Simple Factory Design Pattern/main.cpp
+iostream
+-
+ILogger.h
+/home/mgu/Desktop/project/Patterns/Simple Factory Design Pattern/ILogger.h
+Types.h
+/home/mgu/Desktop/project/Patterns/Simple Factory Design Pattern/Types.h
+SimpleFactoryMethod.h
+/home/mgu/Desktop/project/Patterns/Simple Factory Design Pattern/SimpleFactoryMethod.h
+
+/home/mgu/Desktop/project/Patterns/Simple Factory Design Pattern/src/SimpleFactoryMethod.cpp
+iostream
+-
+SimpleFactoryMethod.h
+/home/mgu/Desktop/project/Patterns/Simple Factory Design Pattern/src/SimpleFactoryMethod.h
+DebugLogger.h
+/home/mgu/Desktop/project/Patterns/Simple Factory Design Pattern/src/DebugLogger.h
+ErrorLogger.h
+/home/mgu/Desktop/project/Patterns/Simple Factory Design Pattern/src/ErrorLogger.h
+InfoLogger.h
+/home/mgu/Desktop/project/Patterns/Simple Factory Design Pattern/src/InfoLogger.h
+
