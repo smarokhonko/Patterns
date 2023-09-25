@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/simpleFactory.dir/main.cpp.o CMakeFiles/simpleFactory.dir/src/DebugLogger.cpp.o CMakeFiles/simpleFactory.dir/src/ErrorLogger.cpp.o CMakeFiles/simpleFactory.dir/src/InfoLogger.cpp.o CMakeFiles/simpleFactory.dir/src/SimpleFactoryMethod.cpp.o  -o simpleFactory 
