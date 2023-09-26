@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ErrorLogger.h
+ILogger.h
+../include/ILogger.h
+
+../include/ErrorLoggerFactory.h
+ILoggerFactory.h
+../include/ILoggerFactory.h
+
+../include/ILogger.h
+string
+-
+
+../include/ILoggerFactory.h
+ILogger.h
+../include/ILogger.h
+
+/home/mgu/Desktop/project/Patterns/Factory Method/src/ErrorLoggerFactory.cpp
+ErrorLoggerFactory.h
+/home/mgu/Desktop/project/Patterns/Factory Method/src/ErrorLoggerFactory.h
+ErrorLogger.h
+/home/mgu/Desktop/project/Patterns/Factory Method/src/ErrorLogger.h
+

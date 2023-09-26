@@ -1,3 +1,0 @@
-/home/mgu/Desktop/project/Patterns/Factory/build/CMakeFiles/rebuild_cache.dir
-/home/mgu/Desktop/project/Patterns/Factory/build/CMakeFiles/edit_cache.dir
-/home/mgu/Desktop/project/Patterns/Factory/build/CMakeFiles/factory.dir
