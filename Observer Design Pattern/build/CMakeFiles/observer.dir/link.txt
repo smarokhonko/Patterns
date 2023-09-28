@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/observer.dir/main.cpp.o CMakeFiles/observer.dir/src/WeatherStation.cpp.o CMakeFiles/observer.dir/src/RadioStation.cpp.o CMakeFiles/observer.dir/src/BloombergWeatherNews.cpp.o CMakeFiles/observer.dir/src/WeatherServer.cpp.o  -o observer 

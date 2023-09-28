@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/BloombergWeatherNews.h
+string
+-
+IObserver.h
+../include/IObserver.h
+
+../include/IObserver.h
+
+../include/RadioStation.h
+string
+-
+IObserver.h
+../include/IObserver.h
+
+../include/WeatherStation.h
+string
+-
+IObserver.h
+../include/IObserver.h
+
+/home/mgu/Desktop/project/Patterns/Observer Design Pattern/src/BloombergWeatherNews.cpp
+iostream
+-
+BloombergWeatherNews.h
+/home/mgu/Desktop/project/Patterns/Observer Design Pattern/src/BloombergWeatherNews.h
+
+/home/mgu/Desktop/project/Patterns/Observer Design Pattern/src/RadioStation.cpp
+iostream
+-
+RadioStation.h
+/home/mgu/Desktop/project/Patterns/Observer Design Pattern/src/RadioStation.h
+
+/home/mgu/Desktop/project/Patterns/Observer Design Pattern/src/WeatherStation.cpp
+iostream
+-
+WeatherStation.h
+/home/mgu/Desktop/project/Patterns/Observer Design Pattern/src/WeatherStation.h
+
