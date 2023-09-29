@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/INetworkDevice.h
+memory
+-
+
+../include/NetworkFactory.h
+memory
+-
+unordered_map
+-
+Types.h
+../include/Types.h
+INetworkDevice.h
+../include/INetworkDevice.h
+
+../types/Types.h
+
+/home/mgu/Desktop/project/Patterns/Prototype Design Pattern/main.cpp
+iostream
+-
+NetworkFactory.h
+/home/mgu/Desktop/project/Patterns/Prototype Design Pattern/NetworkFactory.h
+
