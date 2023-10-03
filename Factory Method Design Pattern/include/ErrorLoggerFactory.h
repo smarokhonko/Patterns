@@ -2,7 +2,7 @@
 
 #include "ILoggerFactory.h"
 
-class ErrorLoggerFactory : public ILoggerFactory
+class ErrorLoggerFactoryErrorLoggerFactory : public ILoggerFactory
 {
 public:
     ILogger* createLogger() override;
